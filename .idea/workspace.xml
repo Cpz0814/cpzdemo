@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca08568-3362-45f5-a285-f8042b43e573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Demo02/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo02/MyFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo02/MyFunctionalInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo03/DemoAndThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo03/DemoLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo03/DemoLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo03/MesssgeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoGetStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_concat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_foEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo04/DemoStream_skip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CpzJavaDemo03/Demo01/shangchuang/TCPClient02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CpzJavaDemo03/Demo01/shangchuang/TCPClient02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CpzJavaDemo03/Demo01/shangchuang/TCPServer02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CpzJavaDemo03/Demo01/shangchuang/TCPServer02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo01/shangchuang/TCPClient02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo01/shangchuang/TCPClient02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo01/shangchuang/TCPServer02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo01/shangchuang/TCPServer02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,29 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Demo03/DemoLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Demo03/DemoAndThen.java">
+        <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_concat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Demo03/MesssgeBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="485">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -102,12 +81,20 @@
         <option value="$PROJECT_DIR$/src/Demo03/MesssgeBuilder.java" />
         <option value="$PROJECT_DIR$/src/Demo03/DemoLambda.java" />
         <option value="$PROJECT_DIR$/src/Demo03/DemoAndThen.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoGetStream.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_foEach.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_filter.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_map.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_count.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_limit.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_skip.java" />
+        <option value="$PROJECT_DIR$/src/Demo04/DemoStream_concat.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="379" />
-    <option name="y" value="69" />
+    <option name="x" value="875" />
+    <option name="y" value="167" />
     <option name="width" value="1051" />
     <option name="height" value="877" />
   </component>
@@ -117,8 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +122,7 @@
               <item name="CpzJavaDemo03" type="b2602c69:ProjectViewProjectNode" />
               <item name="CpzJavaDemo03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo03" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,13 +162,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoAndThen">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02.Demo" />
+  <component name="RunManager" selected="Application.DemoStream_concat">
+    <configuration name="DemoStream_concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04.DemoStream_concat" />
       <module name="CpzJavaDemo03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo02.*" />
+          <option name="PATTERN" value="Demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoAndThen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03.DemoAndThen" />
+    <configuration name="DemoStream_count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04.DemoStream_count" />
       <module name="CpzJavaDemo03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03.*" />
+          <option name="PATTERN" value="Demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03.DemoLambda" />
+    <configuration name="DemoStream_filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04.DemoStream_filter" />
       <module name="CpzJavaDemo03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03.*" />
+          <option name="PATTERN" value="Demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLogger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03.DemoLogger" />
+    <configuration name="DemoStream_foEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04.DemoStream_foEach" />
       <module name="CpzJavaDemo03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03.*" />
+          <option name="PATTERN" value="Demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01.shangchuang.TCPClient02" />
+    <configuration name="DemoStream_map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04.DemoStream_map" />
       <module name="CpzJavaDemo03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01.shangchuang.*" />
+          <option name="PATTERN" value="Demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoAndThen" />
-        <item itemvalue="Application.DemoLambda" />
-        <item itemvalue="Application.DemoLogger" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.TCPClient02" />
+        <item itemvalue="Application.DemoStream_concat" />
+        <item itemvalue="Application.DemoStream_count" />
+        <item itemvalue="Application.DemoStream_map" />
+        <item itemvalue="Application.DemoStream_filter" />
+        <item itemvalue="Application.DemoStream_foEach" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +250,9 @@
       <updated>1584582152339</updated>
       <workItem from="1584582158006" duration="8058000" />
       <workItem from="1584609644786" duration="4106000" />
-      <workItem from="1584667228813" duration="7424000" />
+      <workItem from="1584667228813" duration="7472000" />
+      <workItem from="1584694108742" duration="590000" />
+      <workItem from="1584753825119" duration="6095000" />
     </task>
     <task id="LOCAL-00001">
       <created>1584613668252</created>
@@ -293,14 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584613783875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="666666">
+      <created>1584676320826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584676320826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19588000" />
+    <option name="totallyTimeSpent" value="26321000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="379" y="69" width="1051" height="877" extended-state="0" />
+    <frame x="420" y="88" width="1051" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2533197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,17 +429,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo03/DemoLambda.java">
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoGetStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="319">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Demo03/DemoAndThen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="282">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo03/DemoLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_skip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_count.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_limit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_foEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo04/DemoStream_concat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
